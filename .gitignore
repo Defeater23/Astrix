@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+out/
+cache/
+broadcast/
+
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.mnemonic
+secrets/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+*.log
